@@ -1,7 +1,29 @@
 .App {
   text-align: center;
 }
-
+.container-main {
+  background-color: rgba(57, 45, 45, 0.874);
+  color: rgb(241, 204, 204);
+  text-align: center;
+  height: 100vh;
+}
+.grid {
+  display: grid;
+  gap: 15px;
+  justify-content: center;
+  grid-auto-flow: column;
+}
+.layout-cards {
+  width: 200px;
+  padding: 10px;
+  height: 130px;
+  border: solid 3px gray;
+  border-radius: 15px;
+}
+.layout-dragging {
+  background-color: gray;
+  border-color: solid 3px white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +57,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
+.form-control > input {
+  height: 30px;
+  border-radius: 4px;
+  width: 300px;
+  border: 2px solid rgba(14, 14, 15, 0.21);
+}
+.data {
+  background-color: rgb(3, 87, 114);
+  color: white;
+  padding: 4px;
 }
